@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.max-width {
+  max-width: 1040px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* navber */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  /* padding: 12px; */
+}
+nav .item {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+nav .item a {
+  color: black;
+  text-decoration: none;
+}
+nav h1{
+    color: #69B99D;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+/* main-container */
+
+section{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .contant{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+section .contant p {
+    font-size: 16px;
+    font-weight: 400;
+}
+ section .contant button{
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #69B99D;
+ }
+
+section .contant button:hover{
+    background-color: #589681;
+}
+
+
+.position{
+    position: relative;
+    height: 600px;
+    /* background-color: aquamarine; */
+}
+
+ .position #image{
+    position: absolute;
+    right: 0;
+     bottom: 0;
+}
+
