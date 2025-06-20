@@ -105,5 +105,27 @@ section .contant button:hover {
 
   section .contant {
     align-items: center;
+  
   }
+section .contant h1{
+  text-align: center;
+  /* color: red; */
+}
+
+section .contant p{
+  text-align: center;
+  /* background-color: chartreuse; */
+  margin: auto;
+}
+.position {
+  position: relative;
+  height: 600px;
+}
+
+.position #image {
+  position: absolute;
+  right: 0;
+  bottom: -250px;
+}
+
 }
